@@ -1,0 +1,43 @@
+# Site Settings
+title: Blog de Cédric Temple
+# email: 
+description: Blog sur l'administration système sur GNU/Linux, les logiciels libres, la supervision ...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.cedrictemple.net" # the base hostname & protocol for your site
+# google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: Blog de Cédric Temple 
+user_description: Administrateur système en logiciels libres
+# disqus_username: disqus_username
+
+# Social Media
+# Remove the item if you don't need it
+# github_username: github_username
+# facebook_username: facebook_username
+twitter_username: Cedric_Temple
+#instagram_username: instagram_username
+#linkedin_username: linkedin_username
+#medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+plugins:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
