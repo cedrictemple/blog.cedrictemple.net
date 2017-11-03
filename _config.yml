@@ -34,10 +34,10 @@ plugins:
 links:
   - title: Home
     url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
+  - title: À propos
+    url: /a-propos/
+  - title: Contact et informations légales
+    url: /contact-et-informations-legales/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

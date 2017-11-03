@@ -2,7 +2,7 @@
 layout: post
 title: Contact et informations légales
 description: Let's talk.
-permalink: /contact/
+permalink: /contact-et-informations-legales/
 ---
 
 # Informations légales
