@@ -4,10 +4,10 @@ title: Blog de Cédric Temple
 description: Blog sur l'administration système sur GNU/Linux, les logiciels libres, la supervision ...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.cedrictemple.net" # the base hostname & protocol for your site
-# google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-44206578-1"
 
 # User Settings
-username: Blog de Cédric Temple 
+username: Cédric Temple 
 user_description: Administrateur système en logiciels libres
 # disqus_username: disqus_username
 
