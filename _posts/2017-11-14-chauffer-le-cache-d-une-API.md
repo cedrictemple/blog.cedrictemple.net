@@ -3,7 +3,7 @@ layout: post
 title: "Chauffer le cache d'une API : une méthode"
 date: 2017-11-06 07:48:00
 description: Chauffer le cache d'une API afin d'éviter des lenteurs (une méthode)
-image: /assets/img/...
+image: /assets/img/format_json.jpg
 category: 'automatisation du SI'
 twitter_text: Chauffer le cache d'une API afin d'éviter des lenteurs (une méthode)
 introduction: Pré-calculons les résultats !
