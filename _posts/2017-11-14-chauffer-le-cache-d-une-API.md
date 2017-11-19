@@ -10,6 +10,7 @@ introduction: Pré-calculons les résultats !
 tags:
 - automatisation du SI
 - API
+- JSON
 ---
 
 ## Quand l'API coince
