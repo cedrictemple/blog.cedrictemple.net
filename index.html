@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="article">
+  <div class="well">
+    <h1>Introduction</h1>
+
+
+  </div>
+</div>
+
+
+
+<div class="article">
+  <div class="well">
+    <h1>Mes "notes pour plus tard"</h1>
+    <ul>
+	<li>Outils : 
+		<ul>
+			<li>sed</li>
+                        <li>tar</li>
+                        <li>ssh</li>
+                        <li>gzip/bzip2/zip/unzip</li>
+                        <li>vim</li>
+		</ul> <!-- OUTILS -->
+        </li><!-- OUTILS -->
+	<li>Système :
+                <ul>
+                        <li>/etc/network/interfaces</li>
+                        <li>/etc/resolv.conf</li>
+                        <li>systemd</li>
+		</ul> <!-- SYSTEME -->
+	</li> <!-- SYSTEME -->
+
+        <li>DEV :
+                <ul>
+                        <li><a href="/notes-pour-plus-tard/GIT/">GIT</a></li>
+                        <li>JQ</li>
+                        <li>ElasticSearch</li>
+                </ul> <!-- DEV -->
+        </li><!-- DEV -->
+	
+        <li>Réseaux :
+                <ul>
+                        <li>Commande ip</li>
+                        <li>tcpdump</li>
+                        <li>/etc/network/interfaces</li>
+                        <li>IPv6</li>
+                </ul> <!-- Réseaux -->
+        </li><!-- Réseaux -->
+
+    </ul>
+  </div>
+</div>
+
+
+<div class="article">
+  <div class="well">
+    <h1>Les 10 derniers articles de blog</h1>
+    <ul>
+{% for post in paginator.posts %}
+        <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></li>
+{% endfor %}
+    </ul>
+  </div>
+</div>

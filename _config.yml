@@ -1,0 +1,53 @@
+# Site Settings
+name: Blog de Cédric Temple
+# email: 
+description: Blog sur l'administration système sur GNU/Linux, les logiciels libres, la supervision ...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.cedrictemple.net" # the base hostname & protocol for your site
+gaaccount: "UA-44206578-1"
+
+
+# User Settings
+username: Cédric Temple 
+user_description: Administrateur système en logiciels libres
+# These can be '' to hide the Github or Gitlab nav buttons
+github: ''
+gitlab: ''
+
+# Social Media
+# Remove the item if you don't need it
+# github_username: github_username
+# facebook_username: facebook_username
+twitter_username: Cedric_Temple
+#instagram_username: instagram_username
+#linkedin_username: linkedin_username
+#medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 10
+
+# Plugins
+plugins:
+  - jemoji
+  - jekyll-paginate
+
+collections:
+  notes-pour-plus-tard:
+    output: true
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: À propos
+    url: /a-propos/
+  - title: Contact et informations légales
+    url: /contact-et-informations-legales/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+

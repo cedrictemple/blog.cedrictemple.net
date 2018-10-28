@@ -1,0 +1,25 @@
+<div class="sidebar well">
+{{ site.description }}
+</div>
+
+<div class="sidebar well">
+    <h1>Derniers articles de blog</h1>
+    <ul>
+        {% for post in site.posts limit:5 %}
+          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="sidebar well">
+    <h1>Dernières pages</h1>
+    <ul>
+        {% for page in site.notes-pour-plus-tard limit:5 %}
+          <li><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="sidebar well">
+{% include links-list.html %}
+</div>
