@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Contact et informations légales
 description: Let's talk.
 permalink: /contact-et-informations-legales/

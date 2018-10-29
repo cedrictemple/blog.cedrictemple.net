@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: À propos
 description: Petites informations à connaître avant de lire ce blog.
 permalink: /a-propos/
