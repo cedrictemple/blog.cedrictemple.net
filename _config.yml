@@ -21,6 +21,7 @@ tagarray: []
 # github_username: github_username
 # facebook_username: facebook_username
 twitter_username: Cedric_Temple
+avatar_url: /static/img/avatar.jpg
 #instagram_username: instagram_username
 #linkedin_username: linkedin_username
 #medium_username: medium_username
@@ -49,6 +50,8 @@ urls:
     url: /a-propos/
   - text: Contact et informations légales
     url: /contact-et-informations-legales/
+  - text: Flux RSS
+    url: /feed.xml
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules', '_drafts', '*.sh']

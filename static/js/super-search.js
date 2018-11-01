@@ -59,6 +59,7 @@
 
     function getPostsFromXml(xml) {
         var json = xmlToJson(xml);
+	console.debug(json); 
         return json.channel.item;
     }
 
