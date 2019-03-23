@@ -1,0 +1,16 @@
+.row .article {
+    color: white;
+}
+
+.twocolumns {
+  column-count: 2;
+}
+
+.row .article :link {
+    color: white;
+    font-weight: bold;
+}
+
+.row .article :visited {
+    color: white;
+}

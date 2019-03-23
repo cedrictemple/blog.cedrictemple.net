@@ -39,5 +39,9 @@ links:
   - title: Contact et informations légales
     url: /contact-et-informations-legales/
 
+collections:
+  notes-pour-plus-tard:
+    output: true
+
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
