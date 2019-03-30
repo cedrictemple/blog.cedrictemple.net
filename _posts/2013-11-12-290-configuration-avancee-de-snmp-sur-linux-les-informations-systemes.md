@@ -4,9 +4,9 @@ title: "Configuration avancée de SNMP sur Linux : les informations systèmes"
 date: 2013-12-22 12:26:40
 image: /assets/img/snmpd.png
 description: Configurer SNMPd pour définir les informations systèmes
-category: 'snmp'
+category: 'SNMP'
 tags:
-- snmp
+- SNMP
 - administration système
 twitter_text: Configuration avancée de SNMP sur Linux, définir les informations systèmes
 introduction: définir les informations systèmes

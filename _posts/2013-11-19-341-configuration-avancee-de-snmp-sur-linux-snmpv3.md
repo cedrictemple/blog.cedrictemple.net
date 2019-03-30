@@ -4,9 +4,9 @@ title: "Configuration avancée de SNMP sur Linux : SNMPv3"
 date: 2013-12-22 12:26:40
 image: /assets/img/snmpd.png
 description: Comprendre (un peu) comment fonctionne cette foutue version 3 de SNMP et la configurer
-category: 'snmp'
+category: 'SNMP'
 tags:
-- snmp
+- SNMP
 - administration système
 twitter_text: Configuration avancée de SNMP sur Linux, mise en place de la version 3
 introduction: Comprendre (un peu) comment fonctionne cette foutue version 3 de SNMP et la configurer

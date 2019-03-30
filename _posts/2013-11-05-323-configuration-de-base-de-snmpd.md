@@ -4,9 +4,9 @@ title: "Configuration de base de SNMPd sur GNU/Linux"
 date: 2013-11-05 12:26:40
 image: /assets/img/snmpd.png
 description: Disposer d'une configuration minimale de SNMP
-category: 'snmp'
+category: 'SNMP'
 tags:
-- snmp
+- SNMP
 - administration système
 twitter_text: Configuration de base de SNMPd sur GNU/Linux
 introduction: Disposer d'une configuration minimale de SNMP

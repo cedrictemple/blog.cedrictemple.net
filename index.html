@@ -74,3 +74,27 @@ layout: default
     </ul>
   </div>
 </div>
+
+
+<div class="article">
+  <div class="well">
+    <h1>Les catégories</h1>
+    <ul>
+{% for i in site.categories %}
+        <li><a class="about" href="/category/#{{ i[0] | slugify }}">{{ i[0] }}</a></li>
+{% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+<div class="article">
+  <div class="well">
+    <h1>Les tags</h1>
+    <ul>
+{% for i in site.tags %}
+        <li><a class="about" href="/tags/#{{ i[0] | slugify }}">{{ i[0] }}</a></li>
+{% endfor %}
+    </ul>
+  </div>
+</div>

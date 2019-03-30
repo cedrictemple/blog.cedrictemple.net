@@ -88,7 +88,7 @@ gulp.task('watch', function () {
   gulp.watch('_config.yml', ['stylus', 'js', 'jekyll-rebuild']);
   gulp.watch('src/styl/**/*.styl', ['stylus']);
   gulp.watch('src/js/**/*.js', ['js']);
-  gulp.watch(['*.md','index.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_drafts/*', '_notes-pour-plus-tard/*','_sass/*', 'static/css/*'], ['jekyll-rebuild']);
+  gulp.watch(['*.md','index.html','category.html', 'sitemap.xml', 'tags.html', '_includes/*.html', '_layouts/*.html', '_posts/*', '_drafts/*', '_notes-pour-plus-tard/*','_sass/*', 'static/css/*'], ['jekyll-rebuild']);
 });
 
 /**

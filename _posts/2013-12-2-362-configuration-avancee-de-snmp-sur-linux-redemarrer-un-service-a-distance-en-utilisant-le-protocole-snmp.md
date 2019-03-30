@@ -4,9 +4,9 @@ title: "Configuration avancée de SNMP sur Linux : redémarrer un service à dis
 date: 2013-12-22 12:26:40
 image: /assets/img/snmpd.png
 description: Pouvoir redémarrer un service à distance avec SNMP for fun !
-category: 'snmp'
+category: 'SNMP'
 tags:
-- snmp
+- SNMP
 - administration système
 twitter_text: Configuration avancée de SNMP sur Linux redémarrer un service à distance en utilisant le protocole SNMP
 introduction: Pouvoir redémarrer un service à distance, avec un protocole ouvert.
