@@ -5,6 +5,11 @@ layout: default
 <div class="article">
   <div class="well">
     <h1>Introduction</h1>
+    Ce site contient des articles techniques sur l'informatique, notamment sur GNU/Linux, le logiciel libre en général ou sur la supervision (SNMP/Centreon). Il est réparti en 2 catégories :
+    <ul>
+        <li>mes "notes pour plus tard" : des éléments que je note pour pouvoir m'y référer par la suite. Notamment, sur des sujets complexes. Au lieu de rechercher dans la documentation, j'ai noté rapidement ce que je voulais retenir, généralement avec un cas d'usage.</li>
+        <li>des "articles de blog" : là, ce sont des articles plus écrits, plus réfléchis. Ils ont généralement une introduction, une mise en contexte et ensuite un déroulement.</li>
+    </ul>
   </div>
 </div>
 
@@ -20,7 +25,7 @@ layout: default
                         <li>sed</li>
                         <li><a href="/notes-pour-plus-tard/TAR-archivage-et-desarchivage-de-donnees/">tar</a></li>
                         <li>ssh</li>
-                        <li>gzip/bzip2/zip/unzip</li>
+                        <li><a href="/notes-pour-plus-tard/GZIP-compression-de-fichiers/">gzip</a>/bzip2/zip/unzip</li>
                         <li>vim</li>
 		</ul> <!-- OUTILS -->
         </li><!-- OUTILS -->
@@ -61,7 +66,7 @@ layout: default
 
 <div class="article">
   <div class="well">
-    <h1>Les 10 derniers articles de blog</h1>
+    <h1>Les articles de blog</h1>
     <ul>
 {% for post in paginator.posts %}
         <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%Y/%m/%d" }} - {{ post.title }}</a></li>
