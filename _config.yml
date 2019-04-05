@@ -50,6 +50,8 @@ urls:
     url: /a-propos/
   - text: Contact et informations légales
     url: /contact-et-informations-legales/
+  - text: Articles par tags
+    url: /tags/
   - text: Flux RSS
     url: /feed.xml
 
