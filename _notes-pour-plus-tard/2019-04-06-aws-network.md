@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "AWS, le fonctionnement du réseau"
-date: 2019-04-05 07:48:00
+date: 2020-04-05 07:48:00
 description: AWS, le fonctionnement du réseau
 category: 'notes pour plus tard'
 introduction: ' '
 collection: notes
 permalink: /notes-pour-plus-tard/AWS-le-fonctionnement-du-reseau/
 tags:
-- notes pour plus tard
+- notes-pour-plus-tard
 - AWS
 - réseau
 - IPv4

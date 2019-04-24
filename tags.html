@@ -11,22 +11,26 @@ permalink: /tags/index.html
     </div>
 </div>
 
+{% assign my_tags = "" | split: ", " %}
+{% for post in site.documents %}
+   {% assign my_tags = my_tags | concat: post.tags %}
+            
+{% endfor %}
 
-{% for tag in site.tags  %}
+{% assign my_tags = my_tags | sort | uniq %}
+
+{% for tag in my_tags  %}
 <div class="article">
   <div class="well">
-    <h3 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
+    <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
     <ul class="post-list">
-        {% assign pages_list = tag[1] %}
-        {% for post in pages_list %}
-            {% if post.title != null %}
-            {% if group == null or group == post.group %}
+        {% for post in site.documents %}
+            {% for post_tag in post.tags %}
+            {% if post.title != null and post_tag == tag %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%m/%d/%Y" }}</time></a></li>
             {% endif %}
-            {% endif %}
         {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
+        {% endfor %}
     </ul>
 </div>
 </div>
