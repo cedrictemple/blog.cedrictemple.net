@@ -11,22 +11,26 @@ permalink: /category/index.html
     </div>
 </div>
 
+{% assign my_categories = "" | split: ", " %}
+{% for post in site.documents %}
+   {% assign my_categories = my_categories | concat: post.categories %}
+            
+{% endfor %}
 
-{% for category in site.categories  %}
+{% assign my_categories = my_categories | sort | uniq %}
+
+{% for category in my_categories  %}
 <div class="article">
   <div class="well">
-    <h3 id="{{ category[0] | slugify }}">{{ category[0] }}</h3>
+    <h3 id="{{ category | slugify }}">{{ category }}</h3>
     <ul class="post-list">
-        {% assign pages_list = category[1] %}
-        {% for post in pages_list %}
-            {% if post.title != null %}
-            {% if group == null or group == post.group %}
+        {% for post in site.documents %}
+            {% for post_category in post.categories %}
+            {% if post.title != null  and post_category == category %}
             <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%m/%d/%Y" }}</time></a></li>
             {% endif %}
-            {% endif %}
+            {% endfor %}
         {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
     </ul>
 </div>
 </div>
