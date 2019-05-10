@@ -7,6 +7,7 @@ category: 'notes pour plus tard'
 introduction: ' '
 collection: notes
 permalink: /notes-pour-plus-tard/migration-d-une-TPE-vers-AWS/
+toc: true
 tags:
 - notes pour plus tard
 - AWS

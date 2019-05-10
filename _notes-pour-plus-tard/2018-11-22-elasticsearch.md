@@ -7,6 +7,7 @@ category: 'notes pour plus tard'
 introduction: ''
 collection: notes
 permalink: /notes-pour-plus-tard/ElasticSearch-utilisation-de-l-API-par-un-adminSys/
+toc: true
 tags:
 - notes pour plus tard
 - elasticsearch
