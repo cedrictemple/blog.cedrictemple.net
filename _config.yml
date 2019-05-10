@@ -33,11 +33,21 @@ permalink: /:title/
 paginate: 20
 per_page: 20
 
+toc:
+  min_level: 1
+  max_level: 6
+  no_toc_section_class: no_toc_section
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
+
 # Plugins
 plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-toc
 
 collections:
   notes-pour-plus-tard:
