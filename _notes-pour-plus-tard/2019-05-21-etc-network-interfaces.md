@@ -30,6 +30,13 @@ iface eth0 inet6 static
 ```
 
 
+### Changement de configuration non pris en compte
+Si le changement de configuration n'est pas pris en compte, c'est parce qu'il faut recharger la configuration de systemd avant de redémarrer le réseau : 
+``` bash
+systemctl daemon-reload
+systemctl restart networking.service
+```
+
 ### Configuration un peu plus avancée
 ``` 
 # remarque : tous les scripts ne sont pas nécessaires
