@@ -41,5 +41,13 @@
   * un lutin pour tous les rassembler
 
 
-
+* Notes pour plus tard :
+  * yamllint
+  * Python pour tester API
+  * Python pour chauffer le cache d'une API
+  * Faire une partie Python regroupant tous les trucs python
+  * Python MySQL (ce que je retiens, avec les 2 libs)
+  * gestion d'erreur avec Python 2 / Python 3
+  * Python / YAML : reprendre et modifier la structure d'un fichier YAML avec Python
+  * XML XPATH
 
