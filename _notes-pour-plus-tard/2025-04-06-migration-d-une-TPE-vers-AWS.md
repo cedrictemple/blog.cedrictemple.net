@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Migration d'une TPE vers AWS"
-date: 2020-04-05 07:48:00
+date: 2025-04-05 07:48:00
 description: Migration d'une TPE vers AWS
 category: 'notes pour plus tard'
 introduction: ' '

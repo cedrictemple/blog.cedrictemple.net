@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AWS, le fonctionnement du réseau"
-date: 2020-04-05 07:48:00
+date: 2025-04-05 07:48:00
 description: AWS, le fonctionnement du réseau
 category: 'notes pour plus tard'
 introduction: ' '
