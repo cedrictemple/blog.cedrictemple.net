@@ -43,7 +43,7 @@ toc:
   item_prefix: toc-
 
 # Plugins
-plugins:
+plugins_dir:
   - jemoji
   - jekyll-paginate
   - jekyll-gist
