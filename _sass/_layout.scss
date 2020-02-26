@@ -245,3 +245,7 @@
 .twocolumns {
   column-count: 2;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
