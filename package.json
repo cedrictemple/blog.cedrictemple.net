@@ -38,5 +38,9 @@
     "kouto-swiss": "^1.1.0",
     "minimist": "^1.2.0",
     "rupture": "^0.6.2"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.2",
+    "gulp-cli": "^2.3.0"
   }
 }
