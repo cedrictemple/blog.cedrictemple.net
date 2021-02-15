@@ -3,6 +3,15 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://blog.cedrictemple.net/</loc>
+        </url>
+        <url>
+            <loc>https://blog.cedrictemple.net/a-propos/</loc>
+        </url>
+        <url>
+            <loc>https://blog.cedrictemple.net/contact-et-informations-legales/</loc>
+        </url>
     {% for page in site.pages %}
         <url>
             <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
