@@ -71,6 +71,8 @@ exclude: ['package.json', 'src', 'node_modules', '_drafts', '*.sh']
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
-  endings: all
+  # endings: all
+  blanklines: false
+  profile: false
   ignore:
     envs: ['development']
