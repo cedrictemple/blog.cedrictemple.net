@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SystemD / systemctl : gestion des services sur GNU/Linux"
-date: 2020-02-25 19:50:00
+date: 2020-10-10 10:50:00
 description: systemd/systemctl
 category: 'notes pour plus tard'
 introduction: ''
@@ -13,6 +13,7 @@ tags:
 - systemd
 - systemctl
 - services
+- administration système
 ---
 
 ## Notes sur le fichier SystemD / systemctl
