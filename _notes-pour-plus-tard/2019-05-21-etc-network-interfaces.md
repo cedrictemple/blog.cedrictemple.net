@@ -12,6 +12,7 @@ tags:
 - notes pour plus tard
 - IPv6
 - IPv4
+- administration système
 ---
 
 ## Notes sur /etc/network/interfaces
