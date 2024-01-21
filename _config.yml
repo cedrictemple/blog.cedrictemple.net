@@ -52,7 +52,9 @@ plugins_dir:
 collections:
   notes-pour-plus-tard:
     output: true
-
+  formation-virtualbox:
+    output: true
+    
 # Links to include in menu navigation
 # For external links add external: true
 urls:
