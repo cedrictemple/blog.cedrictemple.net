@@ -27,11 +27,13 @@ permalink: /tags/index.html
     <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
     <ul class="post-list">
         {% for post in my_documents %}
-            {% for post_tag in post.tags %}
-            {% if post.title != null and post_tag == tag %}
-            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time></a></li>
+            {% if post.title != null %}
+              {% for post_tag in post.tags %}
+                {% if post_tag == tag %}
+                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time></a></li>
+                {% endif %}
+              {% endfor %}
             {% endif %}
-        {% endfor %}
         {% endfor %}
     </ul>
 </div>
