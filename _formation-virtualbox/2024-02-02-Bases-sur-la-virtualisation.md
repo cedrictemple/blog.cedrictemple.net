@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bases sur la virtualisation"
-date: 2024-01-01 08:10:00
+date: 2024-02-01 08:10:00
 description: Bases sur la virtualisation
 category: 'Formation VirtualBox'
 introduction: ''
@@ -24,7 +24,7 @@ La virtualisation est un outil logiciel permettant de simuler un serveur matéri
 
 ## Exemple pratique
 
-**AJOUTER UN SCHEMA DE VIRTUALISATION**
+![Schéma sur la virtualisation représentant les différentes couches techniques (matériel, système d'exploitation/système hôte, logiciel de virtualisation, machines virtuelles](/static/img/base-virtualisation.jpg "Schéma sur la virtualisation")
 
 Prenons un exemple pour simplifier et éclairer le propos. J'ai un ordinateur portable. Sur mon ordinateur portable, je suis sous GNU/Linux car j’apprécie beaucoup GNU/Linux, je travaille toujours dessus. C’est mon système d’utilisation courant. Dans mon ordinateur portable, il y a des composants matériels (CPU, RAM, disque dur, interface réseau). Et ces composants sont gérés par un système d'exploitation GNU/Linux, une distribution GNU/Linux KDE Neon pour être précis. Grâce à la virtualisation, je peux installer un deuxième système d'exploitation comme par exemple Windows ! Ou une autre distribution GNU/Linux. Voire un système BSD.
 
