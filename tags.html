@@ -18,7 +18,7 @@ permalink: /tags/index.html
 {% endfor %}
 
 {% assign my_tags = my_tags | sort | uniq %}
-
+{% capture currentDate %}{{ 'now' | date: '%Y%m%d' }}{% endcapture %}
 {% assign my_documents = site.documents | reverse %}
         
 {% for tag in my_tags  %}
@@ -28,9 +28,10 @@ permalink: /tags/index.html
     <ul class="post-list">
         {% for post in my_documents %}
             {% if post.title != null %}
+            {% capture postDate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
               {% for post_tag in post.tags %}
-                {% if post_tag == tag %}
-                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time></a></li>
+                {% if post_tag == tag and currentDate > postDate %}
+                  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} - <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: '%Y-%m-%d' }}</time></a></li>
                 {% endif %}
               {% endfor %}
             {% endif %}
