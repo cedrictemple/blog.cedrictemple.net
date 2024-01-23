@@ -13,19 +13,28 @@ layout: null
             <loc>https://blog.cedrictemple.net/contact-et-informations-legales/</loc>
         </url>
     {% for page in site.pages %}
+        {% capture postDate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
+        {% if currentDate > postDate %}
         <url>
             <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
         </url>
+        {% endif %}
     {% endfor %}
     {% for post in site.posts %}
+        {% capture postDate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
+        {% if currentDate > postDate %}
         <url>
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
         </url>
+        {% endif %}
   {% endfor %}
     {% for post in site.notes-pour-plus-tard %}
+        {% capture postDate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
+        {% if currentDate > postDate %}
         <url>
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
         </url>
+        {% endif %}
   {% endfor %}
     {% for post in site.formation-virtualbox %}
         {% capture postDate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
