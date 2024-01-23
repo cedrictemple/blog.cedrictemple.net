@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>{% capture currentDate %}{{ 'now' | date: '%Y%m%d' }}{% endcapture %}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
             <loc>https://blog.cedrictemple.net/</loc>
@@ -26,5 +26,13 @@ layout: null
         <url>
             <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
         </url>
+  {% endfor %}
+    {% for post in site.formation-virtualbox %}
+        {% capture postDate %}{{ post.date | date: '%Y%m%d' }}{% endcapture %}
+        {% if currentDate > postDate %}
+        <url>
+            <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
+        </url>
+        {% endif %}
   {% endfor %}
 </urlset>
