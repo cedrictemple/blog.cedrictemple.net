@@ -19,12 +19,13 @@ permalink: /tags/index.html
 
 {% assign my_tags = my_tags | sort | uniq %}
 
+{% assign my_documents = site.documents | reverse %}
+        
 {% for tag in my_tags  %}
 <div class="article">
   <div class="well">
     <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
     <ul class="post-list">
-        {% assign my_documents = site.documents | reverse %}
         {% for post in my_documents %}
             {% for post_tag in post.tags %}
             {% if post.title != null and post_tag == tag %}
