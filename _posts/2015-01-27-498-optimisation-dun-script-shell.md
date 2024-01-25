@@ -12,6 +12,8 @@ twitter_text: Optimisation d’un script SHELL
 introduction: Il faut toujours repasser derrière les apprentis !
 ---
 
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+
 > [image disponible sur WikiCommons](https://commons.wikimedia.org/wiki/File:Second%2Bstage%2Bacceleration%2Bprogram-5(1).png) par [Jeriahkosch](https://commons.wikimedia.org/wiki/User:Jeriahkosch) sous licence [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
 Nous avons un script shell. Celui-ci fonctionne en deux étapes. La première étape dure une nuit. La deuxième étape dure elle aussi toute une nuit. Cependant, ce processus doit être exécuté pour 60 serveurs. La durée totale théorique est donc de 120 jours!
@@ -123,3 +125,5 @@ Dorénavant :
 ## Conclusion
 
 « t’as essayé de prendre du recul? » Vous avez déjà entendu cela d’un « petit chef » sans savoir ce qu’il voulait dire? Moi oui. « Prends du recul » n’est pas très parlant, n’aide pas forcément. Lorsqu’on est dans ce genre de situation, bloqué, il est très compliqué de prendre du recul. En général, il faut revenir au but premier et demander de l’aide à un oeil extérieur : une personne qui n’a pas travaillé sur le sujet mais qui pourrait avoir une autre approche. Cela peut vous aider à trouver une nouvelle voie.
+
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">

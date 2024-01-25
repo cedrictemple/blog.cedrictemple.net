@@ -12,6 +12,8 @@ twitter_text: Faire des requêtes SNMP en ligne de commande sous Linux
 introduction: La ligne de commande, c'est plus simple quand on utilise les bons outils !
 ---
 
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+
 Voici une vidéo que j’ai réalisé sur l’utilisation de la ligne de commande Linux pour faire des requêtes SNMP. Vous trouverez en dessous de cette vidéo le texte sur lequel est basé cette vidéo. Les lignes de commande sont disponibles afin que vous puissiez les copier/coller si vous le souhaitez.
 
 {::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/xaPsoj8JecE" frameborder="0" allowfullscreen></iframe>{:/nomarkdown}
@@ -102,3 +104,5 @@ De nombreux OIDs sont organisés sous forme de tableau : les partitions, les int
 ## Conclusion
 
 Voilà, c’est tout pour cette vidéo. N’hésitez pas à participer. Pour cela, vous pouvez ajouter des commentaires à cet article. Si vous avez des questions, je vous invite à les poser. Si vous avez des précisions à apporter, ce sera avec joie. Hein Surcouf! Je suis persuadé que tu as quelques commentaires intéressants à nous apporter. Si vous avez des suggestions, des propositions d’article, j’essaierai aussi de les prendre en compte selon mes moyens bien entendus.
+
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">

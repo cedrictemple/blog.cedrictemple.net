@@ -12,6 +12,8 @@ twitter_text: Optimiser la connexion SSH à des serveurs distants
 introduction: Optimiser la connexion SSH à des serveurs distants pour se simplifier la vie lors du télétravail
 ---
 
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+
 > [image disponible sur WikiCommons](https://commons.wikimedia.org/wiki/File:Auth_ssh.png) par [Pigr8](https://it.wikipedia.org/wiki/User:Pigr8) sous licence BSD
 
 
@@ -84,3 +86,5 @@ Les modifications intéressantes sont :
    * les connexions X11 ne sont pas trusted par défaut. Normal, le serveur distant peut être administré par d’autres personnes, que je ne connais pas ou très très peu. Un risque est toujours possible. Cette configuration a tendance à ralentir énormément la connexion SSH. Je la repasse à yes lors d’un problème urgent, à régler rapidement, après avoir vérifier que personne d’autre que moi n’est connecté au serveur.
 
 Avec ses deux fichiers de configuration, je couvre presque tous mes cas. Mes connexions sont optimisées et je ressens beaucoup moins cette rage que j’avais auparavant, lorsque je suis contraint d’agir à distance, en urgence, sur un problème complexe et risqué et que « ça ralentit ».
+
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">

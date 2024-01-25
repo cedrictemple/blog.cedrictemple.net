@@ -13,6 +13,8 @@ tags:
 - JSON
 ---
 
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+
 ## Quand l'API coince
 Nous disposons d'une API web et plus de 60 publications en ligne utilisant cette API. Lorsqu'un visiteur se rend sur l'une de ses publications, des requêtes sont faites à l'API. Certaines de ces requêtes sur certaines de ses publications sont... comment pourrait-on dire cela poliment ? Excessivement lentes : 14 secondes juste pour récupérer les données. Reste ensuite à calculer le rendu graphique... Même si les utilisateurs sont des *"professionnels"* (par opposition au *"grand public"* ), même si cela concerne certaines requêtes seulement, même sur seulement 2 publications sur les 60, cela reste beaucoup beaucoup beaucoup trop lent.
 
@@ -73,3 +75,5 @@ Ce n'est pas idéal : nous avons contourné des problèmes sans les régler déf
 Cela se fera tranquillement, dans les prochaines versions de l'API, en définissant les priorités. Avoir mis en place un cache des données permet de gagner du temps pour mettre en place les bonnes actions qui règleront définivement les problèmes.
 
 
+
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">

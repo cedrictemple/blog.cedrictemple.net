@@ -12,6 +12,8 @@ twitter_text: Configuration avancée de SNMP sur Linux, réception de trap SNMP
 introduction: Recevoir les traps SNMP
 ---
 
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+
 Le protocole SNMP n’est pas dédié à fournir une réponse à des requêtes SNMP. Le protocole permet aussi d’envoyer, sans avoir été sollicité, des informations à un récepteur. Ce mécanisme est connu sous le nom d’envoi de trap SNMP. Nous allons voir comment configurer l’envoi de trap SNMP à l’aide de Net-SNMP vers un récepteur donné.
 
 ## Pourquoi envoyer des traps SNMP?
@@ -125,3 +127,5 @@ Editer le fichier /etc/default/snmpd et modifier la ligne concernée pour abouti
 Redémarrer le service Net-SNMP:
 
     /etc/init.d/snmpd restart
+
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">

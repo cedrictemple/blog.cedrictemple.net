@@ -12,6 +12,8 @@ twitter_text: SNMPB faire des requêtes SNMP avec un outil graphique
 introduction: La ligne de commande, c'est bien, mais SNMP est plus simple avec un outil graphique !
 ---
 
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+
 Dans cette vidéo je vais vous présenter un outil graphique pour réaliser des requêtes SNMP. Le nom de cet outil est SNMPb. B comme bébé.
 
 {::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/gCh95fN36xI" frameborder="0" allowfullscreen></iframe>{:/nomarkdown}
@@ -68,3 +70,5 @@ Si une MIB n’est pas disponible sur votre système vous pouvez la télécharge
 Éviter de charger trop de modules en même temps. Vous risquez de ralentir inutilement SNMPb.
 
 Voilà, c’est tout pour cette vidéo. N’hésitez pas à participer. Pour cela, vous pouvez ajouter des commentaires à cet article. Si vous avez des questions, je vous invite à les poser. Si vous avez des précisions à apporter, ce sera avec joie. Si vous avez des suggestions, des propositions d’article, j’essaierai aussi de les prendre en compte selon mes moyens bien entendus.
+
+Ce contenu est fourni sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
