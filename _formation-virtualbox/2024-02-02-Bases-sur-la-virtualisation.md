@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bases sur la virtualisation"
-date: 2024-02-01 08:10:00
+date: 2024-03-01 08:10:00
 description: Bases sur la virtualisation
 category: 'Formation VirtualBox'
 introduction: ''

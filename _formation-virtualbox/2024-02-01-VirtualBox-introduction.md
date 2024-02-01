@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VirtualBox : introduction à son utilisation par un étudiant ou un professionnel de l'informatique"
-date: 2024-02-01 08:00:00
+date: 2024-03-01 08:00:00
 description: VirtualBox, introduction à son utilisation par un étudiant ou un professionnel de l'informatique
 category: 'Formation VirtualBox'
 introduction: ''
